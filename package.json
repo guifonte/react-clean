@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTest",
+    "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
-    "test:staged": "npm test -- --findRelatedTest",
+    "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
   },
   "keywords": [],
