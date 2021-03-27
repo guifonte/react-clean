@@ -5,7 +5,7 @@
   },
   "rules": { 
     "@typescript-eslint/consistent-type-definitions": "off",
-    "@typescript-eslint/strict-boolen-expression": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/method-signature-style": "off"
   }
 }
