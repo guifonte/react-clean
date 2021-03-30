@@ -10,7 +10,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    extension: ['.ts', '.tsx', '.js', ''.scss],
+    extensions: ['.ts', '.tsx', '.js', '.scss'],
     alias: {
       '@': path.join(__dirname, 'src')
     }
@@ -43,7 +43,7 @@ module.exports = {
     react: 'React',
     'react-dom': 'ReactDOM'
   },
-  plugin: [
+  plugins: [
     new CleanWebpackPlugin()
   ]
 }
