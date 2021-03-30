@@ -1,5 +1,5 @@
 { 
-  "setting": {
+  "settings": {
     "react": {
       "version": "detect"
     }
